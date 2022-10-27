@@ -1,0 +1,31 @@
+{
+  "name": "@dbudaiya/eslint-config-basic",
+  "version": "0.1.1",
+  "description": "node default config",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint-config"
+  ],
+  "author": "Dushenyan <2645472474@qq.com>",
+  "homepage": "https://github.com/dbudaiya/eslint-config#readme",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.18.0"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.3",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0"
+  }
+}

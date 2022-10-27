@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-monorepo",
+  "version": "0.1.1",
+  "description": "DUshenyan ESLint config monorepo",
+  "private": true,
+  "devDependencies": {
+    "@dushenyan/eslint-config": "workspace:0.1.1",
+    "bumpp": "^8.2.1",
+    "eslint": "^8.18.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "prepare": "pnpm -r run stub",
+    "release:pub": "pnpm -r publish --access public",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbudaiya/eslint-config.git"
+  },
+  "keywords": [],
+  "author": "Dushenyan <2645472474@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbudaiya/eslint-config/issues"
+  },
+  "homepage": "https://github.com/dbudaiya/eslint-config#readme"
+}
