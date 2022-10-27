@@ -7,7 +7,7 @@ module.exports = {
       rules: { indent: 0 }
     }
   ],
-  extends: ['plugin:vue/vue3-recommended', '@antzy/eslint-config-ts'],
+  extends: ['plugin:vue/vue3-recommended', '@dushenyan/eslint-config-ts'],
   rules: {
     // 关闭强制props有默认值
     'vue/require-default-prop': 'off',

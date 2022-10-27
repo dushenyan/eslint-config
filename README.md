@@ -1,6 +1,6 @@
 # eslint-config
-![NPM](https://img.shields.io/npm/l/@antzy/eslint-config) &nbsp;
-![npm (scoped)](https://img.shields.io/npm/v/@antzy/eslint-config?color=%20) <br/>
+![NPM](https://img.shields.io/npm/l/@dushenyan/eslint-config) &nbsp;
+![npm (scoped)](https://img.shields.io/npm/v/@dushenyan/eslint-config?color=%20) <br/>
 
 Antzy ESLint config presets
 
@@ -9,13 +9,13 @@ Antzy ESLint config presets
 # Install
 ```
 pnpm add eslint -D
-pnpm add @antzy/eslint-config -D
+pnpm add @dushenyan/eslint-config -D
 ```
 
 # Config eslintrc.js
 ```
 {
-  "extends":"@antzy"
+  "extends":"@dushenyan"
 }
 ```
 

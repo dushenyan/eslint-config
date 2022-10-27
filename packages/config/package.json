@@ -1,5 +1,5 @@
 {
-  "name": "@dbudaiya/eslint-config",
+  "name": "@dushenyan/eslint-config",
   "version": "0.1.1",
   "description": "Dushenyan ESLint config presets",
   "main": "index.js",
@@ -21,7 +21,7 @@
   "author": "Dushenyan <2645472474@qq.com>",
   "license": "ISC",
   "dependencies": {
-    "@dbudaiya/eslint-config-vue": "workspace:^",
+    "@dushenyan/eslint-config-vue": "workspace:^",
     "@typescript-eslint/eslint-plugin": "^5.30.0",
     "@typescript-eslint/parser": "^5.30.0",
     "eslint-config-standard": "^17.0.0",
