@@ -7,10 +7,12 @@ importers:
       '@dushenyan/eslint-config': workspace:0.1.1
       bumpp: ^8.2.1
       eslint: ^8.26.0
+      typescript: ^4.8.4
     devDependencies:
       '@dushenyan/eslint-config': link:packages/config
       bumpp: 8.2.1
       eslint: 8.26.0
+      typescript: 4.8.4
 
   packages/basic:
     specifiers:
@@ -1569,7 +1571,6 @@ packages:
     resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==}
     engines: {node: '>=4.2.0'}
     hasBin: true
-    dev: false
 
   /unbox-primitive/1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}
