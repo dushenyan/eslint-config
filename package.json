@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-monorepo",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Dushenyan ESLint config monorepo",
   "private": true,
   "devDependencies": {
@@ -19,7 +19,11 @@
     "type": "git",
     "url": "git+https://github.com/dbudaiya/eslint-config.git"
   },
-  "keywords": ["eslint","fomartCode","pnpm"],
+  "keywords": [
+    "eslint",
+    "fomartCode",
+    "pnpm"
+  ],
   "author": "Dushenyan <2645472474@qq.com>",
   "license": "ISC",
   "bugs": {
