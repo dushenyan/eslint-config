@@ -1,12 +1,13 @@
 {
   "name": "eslint-config-monorepo",
   "version": "0.1.1",
-  "description": "DUshenyan ESLint config monorepo",
+  "description": "Dushenyan ESLint config monorepo",
   "private": true,
   "devDependencies": {
-    "@dushenyan/eslint-config": "workspace:0.1.1",
+    "@dushenyan/eslint-config": "workspace:^0.1.1",
     "bumpp": "^8.2.1",
-    "eslint": "^8.26.0"
+    "eslint": "^8.26.0",
+    "typescript": "^4.8.4"
   },
   "scripts": {
     "lint": "eslint .",
@@ -18,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/dbudaiya/eslint-config.git"
   },
-  "keywords": [],
+  "keywords": ["eslint","fomartCode","pnpm"],
   "author": "Dushenyan <2645472474@qq.com>",
   "license": "ISC",
   "bugs": {
