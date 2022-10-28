@@ -19,7 +19,7 @@ pnpm add @dushenyan/eslint-config -D
 }
 ```
 
-# config setting.json
+# config settings.json
 ```
 {
   "prettier.enable": false,
