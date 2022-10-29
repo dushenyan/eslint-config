@@ -12,7 +12,7 @@ pnpm add eslint -D
 pnpm add @dushenyan/eslint-config -D
 ```
 
-# Config eslintrc.js
+# Config .eslintrc
 ```
 {
   "extends":"@dushenyan"
